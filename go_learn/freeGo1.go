@@ -3,5 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello, world")
+
+	var conferenceName = "Go conference added"
+
+	fmt.Println("Hello", conferenceName, "world")
+	fmt.Println("Get caught")
+
 }
