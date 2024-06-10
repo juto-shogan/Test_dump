@@ -8,20 +8,20 @@ Test_dump is a place for me to learn and practice not only the only the new lang
 
 languages will include:
 
-go
-java
-javascript
-python
-c
+go,
+java,
+javascript,
+python,
+c,
 bash
 
 And I will use these to learn :
 
-Pentesting
-AWS
-Backend Development
-Machine Learning
-Cyber Security
-Data Analysis
-Statistics
+Pentesting,
+AWS,
+Backend Development,
+Machine Learning,
+Cyber Security,
+Data Analysis,
+Statistics,
 Docker
