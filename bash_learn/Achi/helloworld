@@ -1,0 +1,4 @@
+first_name=Chukwudi
+last_name=Achi
+
+echo Hello $first_name $last_name
