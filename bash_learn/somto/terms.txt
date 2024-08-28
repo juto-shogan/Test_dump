@@ -1,0 +1,118 @@
+## Bash Operators: A Comprehensive Guide
+
+Bash, a powerful Unix shell, provides a wide range of operators for various tasks. Here's a breakdown of the commonly used operators:
+
+### Arithmetic Operators
+* **Addition:** `+`
+* **Subtraction:** `-`
+* **Multiplication:** `*`
+* **Division:** `/`
+* **Modulo:** `%` (remainder after division)
+* **Exponentiation:** `**` (requires `bash` version 4 or later)
+
+### Comparison Operators
+* **Equal:** `==` or `=`
+* **Not equal:** `!=`
+* **Greater than:** `>`
+* **Less than:** `<`
+* **Greater than or equal to:** `>=`
+* **Less than or equal to:** `<=`
+
+### Logical Operators
+* **And:** `&&`
+* **Or:** `||`
+* **Not:** `!`
+
+### String Operators
+* **String equality:** `=` or `==`
+* **String inequality:** `!=`
+* **Pattern matching:** `=~` (requires `bash` version 3 or later)
+
+### File Operators
+* **File exists:** `-e`
+* **File is a directory:** `-d`
+* **File is a regular file:** `-f`
+* **File is readable:** `-r`
+* **File is writable:** `-w`
+* **File is executable:** `-x`
+* **File is a symbolic link:** `-h` or `-L`
+
+### Redirection Operators
+* **Output redirection:** `>`
+* **Append output:** `>>`
+* **Input redirection:** `<`
+* **Error redirection:** `2>`
+* **Combine standard output and error:** `&>`
+
+### Other Operators
+* **Command substitution:** `$(command)` or ``
+* **Variable assignment:** `=`
+* **Array indexing:** `[]`
+* **Process substitution:** `<()` or `>()`
+
+**Example:**
+
+Addition: +
+Subtraction: -
+Multiplication: *
+Division: /
+Modulo: % (remainder after division)
+Exponentiation: ** (requires bash version 4 or later)
+Comparison Operators
+Equal: == or =
+Not equal: !=
+Greater than: >
+Less than: <
+Greater than or equal to: >=
+Less than or equal to: <=
+Logical Operators
+And: &&
+Or: ||
+Not: !
+String Operators
+String equality: = or ==
+String inequality: !=
+Pattern matching: =~ (requires bash version 3 or later)
+File Operators
+File exists: -e
+File is a directory: -d
+File is a regular file: -f
+File is readable: -r
+File is writable: -w
+File is executable: -x
+File is a symbolic link: -h or -L
+Redirection Operators
+Output redirection: >
+Append output: >>
+Input redirection: <
+Error redirection: 2>
+Combine standard output and error: &>
+Other Operators
+Command substitution: $(command) or ``
+Variable assignment: =
+Array indexing: []
+Process substitution: <() or >()
+```bash
+# Arithmetic operations
+result=$((5 + 3 * 2))
+echo "Result: $result"
+
+# Comparison
+if [[ $result -gt 10 ]]; then
+  echo "Result is greater than 10"
+fi
+
+# String operations
+string="Hello, world!"
+if [[ $string =~ "world" ]]; then
+  echo "String contains \"world\""
+fi
+
+# File operations
+if [[ -f myfile.txt ]]; then
+  echo "myfile.txt exists"
+fi
+```
+
+Remember to use spaces around operators for clarity and to avoid syntax errors.
+
