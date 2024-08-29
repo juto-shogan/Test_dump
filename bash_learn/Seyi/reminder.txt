@@ -1,0 +1,2 @@
+seun let us wake up by 7 tommorow
+This is bascally output redirection this can be done from the terminal is just by calling out the echo command then writing a text then save that text to any name u want but remember to save it as a .txt file this is used to take down quick notes its faster and efficent to use and when u want to view it you use the cat command and the file name
