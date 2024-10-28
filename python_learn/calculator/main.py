@@ -1,10 +1,12 @@
 '''
     In Python, a class is a blueprint for creating objects 
     (instances) that share common properties (attributes) and behaviors (methods).
-    '''
+'''
 class Calculate:
-    '''In Python, a function is a block of code that performs a specific task. It's like a mini-program within your larger program. Functions help you organize your code,
-    make it reusable, and easier to understand'''
+    '''In Python, a function is a block of code that performs a specific task. 
+    It's like a mini-program within your larger program. Functions help you organize your code,
+    make it reusable, and easier to understand
+    '''
     
     
     def __init__(self, num1, num2):
@@ -41,7 +43,8 @@ def main():
     choice = input("Enter your choice:  ")
 
     Calculator = Calculate(num1, num2)
-
+    
+    #
     if choice == '1' or choice == 'Add':
         result = Calculator.add()
         print("Result:", result)
@@ -63,8 +66,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
-    
-
-           
-
