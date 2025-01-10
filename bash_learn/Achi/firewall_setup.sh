@@ -1,4 +1,4 @@
-#!/bin/bash
+https://github.com/berzerk0/Probable-Wordlists#!/bin/bash
 
 #firewall setup
 
